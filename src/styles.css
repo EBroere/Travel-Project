@@ -78,8 +78,10 @@ footer {
     url("../img/island.jpg");
   font-family: Poppins;
   text-align: center;
+  background-clip: content-box;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 100px 0;
 }
 
@@ -113,6 +115,8 @@ footer a {
   color: #ffffff;
   opacity: 0.7;
   text-decoration: none;
+  text-align: left;
+  display: block;
 }
 
 footer a:hover {
